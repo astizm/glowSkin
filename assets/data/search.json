@@ -1,13 +1,12 @@
 ---
 ---
 [
-  {% for post in site.posts %}
+  {% for product in site.products %}
   {
-    "title"    : "{{ post.title | strip_newlines | escape }}",
-    "category" : "{{ post.category }}",
-    "tags"     : "{{ post.tags | join: ', ' | prepend: " " }}",
-    "url"      : "{{ post.url | relative_url }}",
-    "date"     : "{{ post.date | date: "%B %-d, %Y" }}",
+    "title"    : "{{ product.title | strip_newlines | escape }}",
+    "category" : "{{ product.category }}",
+    "tags"     : "{{ product.tags | join: ', ' | prepend: " " }}",
+    "url"      : "{{ product.url | relative_url }}",
     "excerpt"  : {{ post.content | strip_html | truncate: '250' | escape | jsonify }},
   "content"  : {{ post.content | strip_html | escape | jsonify }}
 } {% unless forloop.last %},{% endunless %}

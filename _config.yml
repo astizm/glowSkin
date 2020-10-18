@@ -5,18 +5,18 @@ url: "https://github.com/astizm"
 # THEME-SPECIFIC CONFIGURATION
 title: Glow✧Skin                                   # site's title
 description: "Organic skincare and beauty"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
+avatar:                          # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
 header_text: Spark your skincare journey today # Change Blog header text
-header_feature_image: assets\img\pexels\A2 Images\pexels-elly-fairytale-3865676.jpg
+header_feature_image: 
 footer_text: > #Jekyll and theme creator appreciation
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
 # Blog
-excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
-post_navigation: true
+excerpt: false                                          # Or "truncate" (first 250 characters), "false" to disable
+post_navigation: false
 color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
 
 # Features
@@ -29,7 +29,7 @@ disqus_shortname:                                       # Your discus shortname 
 
 # PAGINATION
 paginate: 5
-paginate_path: "/page/page:num"
+paginate_path: "/pages/page:num"
 
 # PORTFOLIO
 collections:
