@@ -1,0 +1,29 @@
+.call-to-button{
+margin: 0%;
+display: inline;
+  .fa {
+      &.fa-chevron-right, &.fa-chevron-left {
+        font-size: initial;
+      }
+    }
+
+    i .fa-chevron-left .fa-chevron-right {
+      vertical-align: inherit;
+    }
+}
+img.bg{
+min-height: 100%;
+min-width: 1024px;
+width: 100%;
+height: auto;
+position: fixed;
+top: 0;
+left: 0;
+background: url("assets/img/pexels/A2Images/pexels-luizclas-556665.jpg");
+}
+@media screen and (max-width: 1024px){
+img.bg {
+left: 50%;
+margin-left: -512px;
+}
+}
