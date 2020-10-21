@@ -1,12 +1,15 @@
+
+//padding, colour and alignment for text within footer
 .site-footer {
   @extend %padding-post;
-  z-index: -1;
+  z-index: -5;
   display: inline-block;
   text-align: center;
   width: 100%;
   color: lighten($text-color, 24%);
   font-size: 0.5em;
 
+//icons within footer (icons to be chosen under config settings)
   .footer-icons {
     ul {
       list-style: none;
@@ -15,7 +18,7 @@
       li {
         display: inline;
       }
-
+// icon hover effect, darken over icons 
       a:hover {
         color: darken($link-color, 15%);
       }
