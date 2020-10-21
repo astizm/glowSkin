@@ -1,9 +1,9 @@
 ---
 layout: post
 title: product
-feature-img: "assets/img/portfolio/product8.png"
-img: "assets/img/portfolio/cake.png"
-date: 27 September 2015
+feature-img: "assets/img/portfolio/product8.jpg"
+img: "assets/img/portfolio/product8.jpg"
+date: October 2020
 tags: [Lorem, Ipsum, Product]
 ---
 

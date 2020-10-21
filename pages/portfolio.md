@@ -1,9 +1,9 @@
 --- 
 layout: page
-title : Portfolio 
+title : Our Products 
 permalink: /portfolio/
-subtitle: "Projects I am working on" 
-feature-img: "assets/img/pexels/computer.jpeg"
+subtitle: "Products brewed up for your skin needs" 
+feature-img: "assets/img/pexels/A2Images/Headers/potionProductHeader.jpg"
 tags: [Archive]
 ---
 

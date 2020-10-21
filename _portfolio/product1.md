@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Tower of Hanoi
-img: "assets/img/portfolio/toh.png"
-date: September 2014
+title: Circus
+img: "assets/img/portfolio/product1.jpg"
+date: October 2020
+tags: [Ipsum, Product]
 ---
 
 ![image]({{ page.img | relative_url }})

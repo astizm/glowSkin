@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Ninja
-img: "assets/img/portfolio/ninja.png"
-date: April, 08 2014
-tags: [Lorem]
+title: Github
+img: "assets/img/portfolio/product2.jpg"
+date: October 2020
+tags: [Lorem, Product]
 ---
 
 ![image]({{ page.img | relative_url }})
