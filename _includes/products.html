@@ -19,9 +19,13 @@
                  class=""
                  src="{{ item.img | relative_url }}">
         </a>
-<button type="button" class="btn-cart-plus" title="Add to cart" href="{{ item.img | checkouthtml }}">
+<a role="button" 
+href="checkout.html" 
+class="expanded-button"
+aria-label="Add to cart" 
+title="Add to cart">
 <i class="fa fa-cart-plus fa-2px"></i>
-</button>
+</a>
     </div>
     {% endfor %}
 </div>

@@ -1,0 +1,91 @@
+<!--
+    Type on Strap jekyll theme v2.2.6
+    Copyright 2016-2020 Sylhare
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
+<html lang="en">
+<!--Header image-->
+<article {% if page.feature-img or page.color %}class="feature-image" {% endif %}>
+  <header id="main">
+    <div class="title-padder">
+      {% if page.hide_title %}
+      <div class="feature-image-padding"></div>
+      {% else %}
+      <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
+      {% include post_info.html author=page.author date=page.date %}
+      {% endif %}
+    </div>
+  </header>
+</article>
+<body>
+<!--Simple form asks for user details and credit card information, and that the user submits the form-->
+<form id="payment" class="grid">
+<h5>Personal details</h5>
+ <label for="fName">Full name:</label><br>
+<input type="text" id="fName" name="fName" value="Your full name">
+<br>
+<label for="address">Address</label>
+<br>
+<!--Re-used Jekyll Simple Search for aesthetic-->
+<input type="text" id="search-input" placeholder="Enter address..." class="search-bar" autofocus>h mor
+<br>
+<h5>Credit Card details</h5>
+<input type="radio" id="visa" name="payment-type" value="Visa" aria-placeholder="Visa">
+<i class="fa fa-cc-visa"></i>
+<input type="radio" id="mastercard" name="payment-type" value="Mastercard" aria-placeholder="Mastercard">
+<i class="fa fa-cc-mastercard"></i>
+<input type="radio" id="paypal" name="payment-type" value="paypal" aria-placeholder="Paypal">
+<i class="fa fa-cc-paypal"></i>
+<input type="radio" id="Amex" name="payment-type" value="Amex" aria-placeholder="Amex">
+<i class="fa fa-cc-amex"></i>
+<br>
+<input 
+type="text" 
+maxlength="4" 
+id="cardNumber"
+value="0000">
+<input 
+type="text" 
+maxlength="4" 
+id="cardNumber"
+value="0000">
+<input type="text" 
+maxlength="4" 
+id="cardNumber"
+value="0000">
+<input type="text" 
+maxlength="4" 
+id="cardNumber"
+value="0000">
+<label for="CVC"></label>
+<input type="text"
+maxlength="3"
+id="cardNumber"
+value="CVC"> 
+<br>
+
+
+<a 
+role="button" 
+href="#" 
+class="button"
+type="submit" 
+aria-placeholder="Confirm payment">
+Confirm Payment
+</a>
+
+</form>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
