@@ -243,3 +243,17 @@ kbd {
   padding: 2px 4px;
   white-space: nowrap;
 }
+ label {
+font-family: $font-family-main;
+font-size: $form-font-size;
+float: left;
+text-align: right;
+margin-right: 15px;
+width: 100px;
+}
+
+#register {
+display: grid;
+margin-top: -4.5em;
+float: right;
+}
