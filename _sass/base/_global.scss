@@ -257,3 +257,14 @@ display: grid;
 margin-top: -4.5em;
 float: right;
 }
+
+.img-bg{
+background: url(/glowSkin/assets/img/landingPageCrop.jpg) no-repeat;
+background-size: 100%;
+max-width: 100%;
+padding: $feature-image-padding;
+ img[src="/glowSkin/assets/img/glowskin.svg"]{
+display: block;
+align-content: center;
+}
+}
