@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Our Philosophy
-permalink: /ourPhilosophy/
-feature-img: "assets/img/pexels/A2 Images/pexels-luizclas-595747.jpg"
+permalink: /3about/
+feature-img: "assets/img/pexels/A2Images/pexels-luizclas-595747.jpg"
 tags: [About Us, Archive]
 ---
 

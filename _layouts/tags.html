@@ -13,11 +13,11 @@ layout: page
 {% endif %}
 {% endfor %}
 
-<!-- cycles through portfolio collection to get tags -->
-{% assign portfolio =  site.portfolio | map: 'tags' | join: ','  | split: ',' | uniq %}
-{% for tag in portfolio %}
-{% assign portfolio_tags = tag | join: '|' | append: '|' %}
-{% assign rawtags = rawtags | append: portfolio_tags %}
+<!-- cycles through products collection to get tags -->
+{% assign products =  site.products | map: 'tags' | join: ','  | split: ',' | uniq %}
+{% for tag in products %}
+{% assign products_tags = tag | join: '|' | append: '|' %}
+{% assign rawtags = rawtags | append: products_tags %}
 {% endfor %}
 
 <!-- cycles through pages to get tags -->
@@ -75,8 +75,8 @@ layout: page
                 {% endif %} 
             {% endfor %} 
             
-            <!-- Portfolio -->
-            {% for note in site.portfolio %} 
+            <!-- products -->
+            {% for note in site.products %} 
                 {% if note.tags contains tag %}
                 <h5 class="tag-title">
                     <a href="{{ note.url | relative_url }}">

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Circus
-img: "assets/img/portfolio/product1.jpg"
+title: product2
+img: "assets/img/products/product2.jpg"
 date: October 2020
-tags: [Ipsum, Product]
+tags: [Lorem, Product]
 ---
 
 ![image]({{ page.img | relative_url }})

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: product
-feature-img: "assets/img/portfolio/product8.jpg"
-img: "assets/img/portfolio/product8.jpg"
+title: product8
+feature-img: "assets/img/products/product8.jpg"
+img: "assets/img/products/product8.jpg"
 date: October 2020
 tags: [Lorem, Ipsum, Product]
 ---

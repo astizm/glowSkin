@@ -1,0 +1,27 @@
+<!-- products Grid Section -->
+
+<div class="products-grid">
+    {% for item in site.products %}
+    <div class="products-cell">
+        <a class="products-link"
+           data-keyboard="true"
+           href="{{ item.url | relative_url }}">
+            <div class="caption"
+                 title="{{ item.title }}">
+                <div class="caption-content">
+                    <p>View Product</p>
+
+
+                </div>
+
+            </div>
+            <img alt=""
+                 class=""
+                 src="{{ item.img | relative_url }}">
+        </a>
+<button type="button" class="btn-cart-plus" title="Add to cart" href="{{ item.img | checkouthtml }}">
+<i class="fa fa-cart-plus fa-2px"></i>
+</button>
+    </div>
+    {% endfor %}
+</div>

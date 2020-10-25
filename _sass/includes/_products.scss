@@ -1,4 +1,4 @@
-.portfolio-link {
+.products-link {
   display: block;
   position: relative;
   margin: 0 auto;
@@ -28,10 +28,10 @@
 
     .caption-content {
       font-size: 15px;
-      color: white;
-      text-shadow: -1px 0 #ddd, 0 1px #ddd, 1px 0 #ddd, 0 -1px #ddd;
+      color:#C43645;
+      text-shadow: -1px 0 #ddd, 0 .5px #ddd, .5px 0 #ddd, 0 -1px #ddd;
       display: inline-block;
-      vertical-align: middle;
+      vertical-align: center;
 
       @media screen and (max-width: $sm-break) {
         font-size: 7px;
@@ -40,14 +40,17 @@
   }
 }
 
-.portfolio-grid {
+.products-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 
 }
 
-.portfolio-cell {
+.products-cell {
   flex: 0 0 32%;
-  margin-bottom: 8px;
+  margin-bottom: 50px;
+  background-size: cover;
 }
+
+

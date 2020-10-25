@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Jekyll
-feature-img: "assets/img/portfolio/product4.jpg"
-img: "assets/img/portfolio/product4.jpg"
-date: 2017-05-26
+title: product9
+feature-img: "assets/img/products/product9.jpg"
+img: "assets/img/products/product9.jpg"
+date: October 2020
 tags: [Lorem, Product]
 ---
 

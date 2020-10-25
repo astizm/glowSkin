@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Github
-img: "assets/img/portfolio/product2.jpg"
+title: product1
+img: "assets/img/products/product1.jpg"
 date: October 2020
-tags: [Lorem, Product]
+tags: [Ipsum, Product]
 ---
 
 ![image]({{ page.img | relative_url }})

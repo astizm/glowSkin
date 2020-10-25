@@ -2,7 +2,7 @@
 layout: post
 title: "Markup: Syntax Highlighting"
 author: mmistakes
-tags: [code]
+tags:
 ---
 
 Syntax highlighting[^1] is a feature that displays source code. 

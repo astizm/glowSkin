@@ -1,9 +1,16 @@
+/*Imported code for fonts, sass variables, classes, layouts and icons as chosen by the theme creator (sylhare)
+@import is in the process of being phased out "@import makes all variables, mixins, and functions globally accessible. 
+This makes it very difficult for people (or tools) to tell where anything is defined." (n.d.,2020) 
+https://sass-lang.com/documentation/at-rules/import
+*/
+
 // External
 @import 'external/reset';
 @import 'external/font-awesome';
 @import 'external/pacifico';
 @import 'external/katex';
 @import 'external/source-sans-pro';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Lato');
 // Variables
 @import 'base/variables';
 // Base
@@ -14,7 +21,7 @@
 @import 'includes/footer';
 @import 'includes/post_nav';
 @import 'includes/navbar';
-@import 'includes/portfolio';
+@import 'includes/products';
 @import 'includes/grid';
 @import 'includes/share_buttons';
 @import 'includes/blog_nav.scss';
@@ -25,3 +32,4 @@
 @import 'layouts/page';
 @import 'layouts/tags';
 @import 'layouts/search';
+

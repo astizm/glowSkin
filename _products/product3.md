@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ninja
-img: "assets/img/portfolio/product5.jpg"
+title: product3
+img: "assets/img/products/product3.jpg"
 date: October 2020
 tags: [Lorem, Product]
 ---

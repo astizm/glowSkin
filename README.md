@@ -9,7 +9,7 @@
 A free and open-source [Jekyll](https://jekyllrb.com) theme. Based on Rohan Chandra [type-theme](https://github.com/rohanchandra/type-theme) packed with extra features and easily cusomizable:
 
 * Responsive design on all devices (🖥, 💻, 📱, ...)
-* Portfolio 🗂, Gallery 🖼 pages for your projects
+* products 🗂, Gallery 🖼 pages for your projects
 * Tags compatibility 🏷
 * Handle Bootstrap'ed pages: [Get Bootstrap](http://getbootstrap.com/)
 * 🔎 Search feature: [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
@@ -54,7 +54,7 @@ Here are the main files of the template
 Type-on-Strap
 ├── _includes	               # theme includes
 ├── _layouts                   # theme layouts (see below for details)
-├── _portfolio	               # collection of article to be populated in the portfolio page
+├── _products	               # collection of article to be populated in the products page
 ├── _posts                     # Blog posts
 ├── _sass                      # Sass partials 
 ├── assets
@@ -66,7 +66,7 @@ Type-on-Strap
 |   ├── 404.md		       # To be displayed when url is wrong
 |   ├── about.md               # About example page
 |   ├── gallery.md             # Gallery page for your photos
-|   ├── portfolio.md	       # Portfolio page for your projects
+|   ├── products.md	       # products page for your projects
 |   ├── search.html	       # Search page
 |   └── tags.md                # The tag page
 ├── _config.yml                # sample configuration
@@ -349,25 +349,25 @@ tags: [sample, markdown, html]
 
 The hide only hides your page from the navigation bar, it is however still generated and can be access through its link. 
 
-### Feature: Portfolio 🗂
+### Feature: products 🗂
 
-Portfolio is a feature page that will take all the markdown/html files in the `_portfolio` folder to create a 3-columns image portfolio matrix.
+products is a feature page that will take all the markdown/html files in the `_products` folder to create a 3-columns image products matrix.
 
-To use the portfolio, simply create a `portfolio.md` with this information inside:
+To use the products, simply create a `products.md` with this information inside:
 
 ```yml
 
 --- 
 layout: page
-title : Portfolio 
+title : products 
 ---
 
-{% include portfolio.html %}
+{% include products.html %}
 ```
 
-#### Portfolio posts
+#### products posts
 
-You can format the portfolio posts in the `_portfolio` folder using the `post layout`. Here are little explaination on some of the possible feature you can use and what they will do.
+You can format the products posts in the `_products` folder using the `post layout`. Here are little explaination on some of the possible feature you can use and what they will do.
 
 If you decide to use a date, please be sure to use one that can be parsed such as `yyyy-mm-dd`. You can see more format example on the demo posts that are available for the theme:
 
@@ -375,26 +375,26 @@ If you decide to use a date, please be sure to use one that can be parsed such a
 
 ---
 layout: post
-title: Circus				       # Title of the portfolio post
-feature-img: "assets/img/portfolio/cake.png"   # Will display the image in the post
-img: "assets/img/portfolio/cake.png"           # Will display the image in the portfolio page
+title: Circus				       # Title of the products post
+feature-img: "assets/img/products/cake.png"   # Will display the image in the post
+img: "assets/img/products/cake.png"           # Will display the image in the products page
 date: 2019-07-25		 	       # Not mandatory, however needs to be in date format to display the date
 ---
 ```
 
-#### Portfolio in gem
+#### products in gem
 
 Make sure your `_config.yml` contains the following if you are using the theme as a gem:
 
 ```yml
-# PORTFOLIO
+# products
 collections:
-  portfolio:
+  products:
     output: true
     permalink: /:collection/:name
 ```    
 
-This creates the collection for Jekyll so it can find and display your portfolio posts.
+This creates the collection for Jekyll so it can find and display your products posts.
 
 ### Feature: Gallery 🖼
 
@@ -418,7 +418,7 @@ gallery: "assets/img/pexels"
 ### Feature: Search 🔍
 
 The search feature is based on [Simple-Jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search) 
-there is a `search.json` file that will create a list of all of the site posts, pages and portfolios. 
+there is a `search.json` file that will create a list of all of the site posts, pages and productss. 
 
 Then there's a `search.js` displaying the formatted results entered in the `search.html` page.
 
@@ -436,7 +436,7 @@ icon: "search"
 ### Feature: Tags 🏷
 
 Tags should be placed between `[]` in your post metadata. Separate each tag with a comma. 
-Tags are recommended for posts and portfolio items.
+Tags are recommended for posts and products items.
 
 For example:
 
@@ -522,7 +522,7 @@ bundle install
 Then you can start adding content like:
   - Add a `index.html` file
   - Add the feature page you want. (ex: as it is already in `pages`)
-  - Add posts in `_posts` and `_portfolio` to be displayed
+  - Add posts in `_posts` and `_products` to be displayed
 
 ### Remote Theme
 
