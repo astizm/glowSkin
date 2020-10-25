@@ -244,8 +244,13 @@ kbd {
   white-space: nowrap;
 }
 
-.img-bg {
-background-image: url(assets/img/landingPageCrop.jpg);
-background-size: cover;
-background: url(assets/img/landingPageCrop.jpg);
+.img-bg{
+background: url(/glowSkin/assets/img/landingPageCrop.jpg) no-repeat;
+background-size: 100%;
+max-width: 100%;
+padding: $feature-image-padding;
+ img[src="/glowSkin/assets/img/glowskin.svg"]{
+display: block;
+align-content: center;
+}
 }
